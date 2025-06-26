@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Patrick Vera</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Patrick Vera</h1>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre mí</a></li>
+        <li><a href="portafolio.html">Proyectos</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Contacto</h2>
+    <p>¿Quieres ponerte en contacto conmigo para una colaboración, proyecto freelance o simplemente saludar? ¡Escríbeme!</p>
+
+    <ul class="contacto-list">
+      <li>
+        <strong>Email:</strong>
+        <a href="mailto:veraossandonpatrick@gmail.com">
+          veraossandonpatrick@gmail.com
+        </a>
+      </li>
+      <li>
+        <strong>Instagram:</strong>
+        <a href="https://www.instagram.com/veraossandonpatrick" target="_blank">
+          @veraossandonpatrick
+        </a>
+      </li>
+    </ul>
+
+    <form action="https://formsubmit.co/veraossandonpatrick@gmail.com" method="POST" class="form-contacto">
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar mensaje</button>
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+  </main>
+
+  
+
+  <footer>
+    <p>&copy; 2025 Patrick Vera</p>
+  </footer>
+</body>
+</html>
