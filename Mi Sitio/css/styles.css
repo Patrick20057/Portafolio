@@ -312,3 +312,18 @@ body.modo-oscuro .btn-enviar {
 .redes-contacto ul li {
   margin-bottom: 10px;
 }
+
+/* Footer al final */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
